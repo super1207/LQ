@@ -1,0 +1,11 @@
+syntax = "proto2";
+package oidb;
+
+option go_package = "./;oidb";
+
+message hb480 {
+  optional int32 m1 = 1;
+  optional int32 m2 = 2;
+  optional int32 m3 = 3;
+  optional bytes m4 = 4;
+}
